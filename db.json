@@ -1,0 +1,74 @@
+const rawData = [
+    {
+        "city": "New York",
+        "state": "NY",
+        "population": 8175133,
+        "timeZone": "Eastern",
+        "industry": ["Finance", "Tech", "Healthcare"],
+        "costOfLiving": 100,
+        "mayor": "Eric Adams",
+        "description": "New York City is the largest city in the United States and is home to a diverse population of over 8 million people. The city is known for its iconic skyline, world-class museums, and vibrant arts scene. New York City is also a major financial hub, with Wall Street serving as the center of the American financial industry. The city is home to many Fortune 500 companies and is a major center for tech, healthcare, and media. New York City is also known for its diverse culinary scene, with restaurants offering cuisine from around the world. The city is a major tourist destination, with millions of visitors coming each year to see landmarks such as the Statue of Liberty, Times Square, and Central Park."
+    },
+    {
+        "city": "Los Angeles",
+        "state": "CA",
+        "population": 3792621,
+        "timeZone": "Pacific",
+        "industry": ["Entertainment", "Tech", "Fashion"],
+        "costOfLiving": 90,
+        "mayor": "Eric Garcetti",
+        "description": "Los Angeles is the second-largest city in the United States and is known for its sunny weather, beautiful beaches, and vibrant entertainment industry. The city is home to Hollywood, the center of the American film and television industry, as well as major music and fashion industries. Los Angeles is also a major tech hub, with many startups and tech companies based in the city. The city is known for its diverse population and cultural scene, with a wide range of museums, galleries, and theaters. Los Angeles is a major tourist destination, with millions of visitors coming each year to see landmarks such as the Hollywood Sign, Griffith Observatory, and Santa Monica Pier."
+    },
+    {
+        "city": "Chicago",
+        "state": "IL",
+        "population": 2695598,
+        "timeZone": "Central",
+        "industry": ["Finance", "Tech", "Manufacturing"],
+        "costOfLiving": 80,
+        "mayor": "Lori Lightfoot",
+        "description": "Chicago is the third-largest city in the United States and is known for its iconic architecture, world-class museums, and vibrant arts scene. The city is a major financial hub, with the Chicago Mercantile Exchange and the Chicago Board of Trade located in the city. Chicago is also a major center for tech and manufacturing, with many companies based in the city. The city is known for its diverse population and cultural scene, with a wide range of museums, galleries, and theaters. Chicago is a major tourist destination, with millions of visitors coming each year to see landmarks such as the Willis Tower, Millennium Park, and Navy Pier."
+    },
+    {
+        "city": "Houston",
+        "state": "TX",
+        "population": 2320268,
+        "timeZone": "Central",
+        "industry": ["Energy", "Healthcare", "Tech"],
+        "costOfLiving": 70,
+        "mayor": "Sylvester Turner",
+        "description": "Houston is the fourth-largest city in the United States and is known for its diverse population, vibrant arts scene, and world-class museums. The city is a major energy hub, with many oil and gas companies based in the city. Houston is also a major center for healthcare and tech, with many hospitals and tech companies located in the city. The city is known for its diverse culinary scene, with restaurants offering cuisine from around the world. Houston is a major tourist destination, with millions of visitors coming each year to see landmarks such as Space Center Houston, the Museum District, and the Houston Zoo."
+    },
+    {
+        "city": "Phoenix",
+        "state": "AZ",
+        "population": 1680992,
+        "timeZone": "Mountain",
+        "industry": ["Tech", "Healthcare", "Manufacturing"],
+        "costOfLiving": 60,
+        "mayor": "Kate Gallego",
+        "description": "Phoenix is the fifth-largest city in the United States and is known for its sunny weather, beautiful desert landscapes, and vibrant arts scene. The city is a major tech hub, with many startups and tech companies based in the city. Phoenix is also a major center for healthcare and manufacturing, with many hospitals and manufacturing companies located in the city. The city is known for its diverse population and cultural scene, with a wide range of museums, galleries, and theaters. Phoenix is a major tourist destination, with millions of visitors coming each year to see landmarks such as Camelback Mountain, the Desert Botanical Garden, and the Heard Museum."
+    },
+    {
+        "city": "Boston",
+        "state": "MA",
+        "population": 694583,
+        "timeZone": "Eastern",
+        "industry": ["Finance", "Tech", "Healthcare"],
+        "costOfLiving": 100,
+        "mayor": "Michelle Wu",
+        "description": "Boston is the capital of Massachusetts and is known for its historic landmarks, world-class universities, and vibrant arts scene. The city is a major financial hub, with many banks and investment firms based in the city. Boston is also a major center for tech and healthcare, with many startups and hospitals located in the city. The city is known for its diverse population and cultural scene, with a wide range of museums, galleries, and theaters. Boston is a major tourist destination, with millions of visitors coming each year to see landmarks such as Fenway Park, the Freedom Trail, and the Boston Common."
+    },
+    {
+        "city": "Atlanta",
+        "state": "GA",
+        "population": 506811,
+        "timeZone": "Eastern",
+        "industry": ["Tech", "Finance", "Healthcare"],
+        "costOfLiving": 80,
+        "mayor": "Keisha Lance Bottoms",
+        "description": "Atlanta is the capital of Georgia and is known for its diverse population, vibrant arts scene, and world-class museums. The city is a major tech hub, with many startups and tech companies based in the city. Atlanta is also a major financial center, with many banks and investment firms located in the city. The city is known for its diverse culinary scene, with restaurants offering cuisine from around the world. Atlanta is a major tourist destination, with millions of visitors coming each year to see landmarks such as the Georgia Aquarium, the World of Coca-Cola, and the Martin Luther King Jr. National Historic Site."
+    }
+]
+
+module.exports = { rawData };
